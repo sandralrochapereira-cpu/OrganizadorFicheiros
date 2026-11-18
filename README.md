@@ -6,6 +6,8 @@ O teste.py foi criado mas tive que repor o repositório a dada altura.
 As respostas da tarefa 3 encontram-se no organizador.py como comentário.
 Inicializar um repositório local serve para preparar uma área de transferência local. É a porta de saída dos ficheiros a serem tranferidos.
 O comando git status serve para nos mostrar o que está no repositório.
+git clone serve para clonar o repositório. git pull atualiza o repositório.
+
 
 
 Respostas:
