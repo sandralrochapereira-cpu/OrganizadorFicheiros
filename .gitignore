@@ -1,0 +1,13 @@
+# -*- coding: utf-8 -*-
+"""
+Created on Tue Nov 17 17:08:54 2026
+
+@author: sandr
+"""
+
+_pycache_/
+*.pyc
+.spyproject/
+
+#Não se devem guardar ficheiros temporários no repositório pois iremos gerar 
+#conteúdo redundante e informação desnecessária.
