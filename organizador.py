@@ -17,6 +17,7 @@ for ficheiro in pasta.iterdir():
     if ficheiro.is_file():#Serve para detetar os ficheiros na pasta
         print("Nome:", ficheiro.name)
         print("Extensão:", ficheiro.suffix)#suffix identifica a extensão
+        print("Tamanho do ficheiro (bytes):", ficheiro.stat().st_size , "b")
         print("------------------------")
         idx=idx+1
     else:
@@ -24,4 +25,5 @@ for ficheiro in pasta.iterdir():
         
     total_ficheiros = idx
     print(f" {total_ficheiros} Ficheiros encontrados")
+    #os ficheiros encontrados são 5 em .txt e 1 em .py
     
